@@ -1,0 +1,11 @@
+bhaichara-app/
+├── assets/                  <-- (generated automatically by make-assets.js)
+├── App.js                   (Mobile Frontend)
+├── package.json             (Mobile Dependencies)
+├── app.json                 (Expo & Android Config)
+├── eas.json                 (EAS Cloud APK Build Config)
+├── make-assets.js           (Asset Generation Script)
+└── backend/
+    ├── package.json         (Backend Dependencies)
+    ├── models.js            (MongoDB User & Unlock Schemas)
+    └── server.js            (Express, Auth, Twilio & Razorpay Server)
